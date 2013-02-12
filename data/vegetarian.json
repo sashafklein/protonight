@@ -1,7 +1,5 @@
 [
-	{"latitude":"1","longitude":"1","name":"name"},
-	{"latitude":"1","longitude":"1","name":"name2"},
-	{"latitude":"1","longitude":"1","name":"name3"},
-	{"latitude":"1","longitude":"1","name":"name4"},
-	{"latitude":"1","longitude":"1","name":"name5"}
+	{"latitude":-34.387,"longitude":150.644,"name":"A"},
+        {"latitude":-34.397,"longitude":150.644,"name":"B"},
+        {"latitude":-34.387,"longitude":150.744,"name":"C"}
 ]
