@@ -1,10 +1,10 @@
-<html ng-app ng-controller="PhoneListCtrl">
+<html ng-app>
 <head>
   <script src="lib/angular/angular.js"></script>
   <script src="js/controllers.js"></script>
   <title>Google Phone Gallery: {{query}}</title>
 </head>
-<body >
+<body ng-controller="PhoneListCtrl">
  
  Search: <input ng-model="query">
 Sort by:
