@@ -24,22 +24,14 @@
   <script src="js/controllers.js"></script>
   <title>Google Phone Gallery: {{query}}</title>
 </head>
-<body ng-controller="PhoneListCtrl">
+<body ng-controller="VegetarianController">
  
  <div id="map_canvas" style="width:100%; height:100%"></div>
  Search: <input ng-model="query">
-Sort by:
-<select ng-model="orderProp">
-  <option value="name">Name</option>
-  <option value="age">Age</option>
-  <option value="snippet">Snippet</option>
-</select>
  
- 
-<ul class="phones">
-  <li ng-repeat="phone in phones | filter:query | orderBy:orderProp">
-    {{phone.name}}
-    <p>{{phone.snippet}}</p>
+<ul class="vegetarians">
+  <li ng-repeat="vege in vegetarians | filter:query">
+    {{vege.name}}
   </li>
 </ul>
 
