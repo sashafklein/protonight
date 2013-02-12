@@ -1,9 +1,7 @@
-function PhoneListCtrl($scope, $http) {
-  $http.get('phones/phones.json').success(function(data) {
-    $scope.phones = data;
+function VegetarianController($scope, $http) {
+  $http.get('data/vegetarian.json').success(function(data) {
+    $scope.vegetarians = data;
   });
- 
-  $scope.orderProp = 'age';
 }
  
 //PhoneListCtrl.$inject = ['$scope', '$http'];
